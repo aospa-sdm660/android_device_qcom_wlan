@@ -3,7 +3,7 @@ WLAN_CHIPSET := qca_cld3
 #WPA
 WPA := wpa_cli
 
-PRODUCT_PACKAGES += $(WLAN_CHIPSET)_wlan.ko
+#PRODUCT_PACKAGES += $(WLAN_CHIPSET)_wlan.ko
 PRODUCT_PACKAGES += \
         wificond \
         wifilogd \
